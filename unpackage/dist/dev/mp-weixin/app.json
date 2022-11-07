@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/tabbar/firstPage/firstPage",
+    "pages/tabbar/secondePage/secondePage",
+    "pages/tabbar/thirdPage/thirdPage",
+    "pages/tabbar/fouthPage/fouthPage"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "pagePath": "pages/tabbar/firstPage/firstPage",
+        "text": "第一页"
+      },
+      {
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "pagePath": "pages/tabbar/secondePage/secondePage",
+        "text": "第二页"
+      },
+      {
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "pagePath": "pages/tabbar/thirdPage/thirdPage",
+        "text": "第三页"
+      },
+      {
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/logo.png",
+        "pagePath": "pages/tabbar/fouthPage/fouthPage",
+        "text": "第四页"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
