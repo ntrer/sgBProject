@@ -282,35 +282,125 @@ module.exports = {
   		},
   	}
   },
-  "tarea":{
-  	"type": "area",
-    "color": color,
-  	"padding": [15,10,0,15],
-  	"xAxis": {
-      "disableGrid": true,
-      "boundaryGap":"justify",
-  	},
-  	"yAxis": {
-      "gridType": "dash",
-      "dashLength": 2,
-      "data":[
-        {
-          "min":0,
-          "max":80
-        }
-      ]
-  	},
-  	"legend": {
-  	},
-  	"extra": {
-  		"area": {
-  			"type": "curve",
-  			"opacity": 0.2,
-  			"addLine": true,
-  			"width": 2,
-  			"gradient": true
-  		},
-  	}
+  "area":{
+      "type": "area",
+      "canvasId": "",
+      "canvas2d": false,
+      "background": "none",
+      "animation": true,
+      "timing": "easeOut",
+      "duration": 1000,
+      "color": [
+          "#1890FF",
+          "#91CB74",
+          "#FAC858",
+          "#EE6666",
+          "#73C0DE",
+          "#3CA272",
+          "#FC8452",
+          "#9A60B4",
+          "#ea7ccc"
+      ],
+      "padding": [
+          15,
+          15,
+          0,
+          15
+      ],
+      "rotate": false,
+      "errorReload": true,
+      "fontSize": 13,
+      "fontColor": "#666666",
+      "enableScroll": false,
+      "touchMoveLimit": 60,
+      "enableMarkLine": false,
+      "dataLabel": true,
+      "dataPointShape": false,
+      "dataPointShapeType": "solid",
+      "tapLegend": true,
+      "xAxis": {
+          "disabled": false,
+          "axisLine": true,
+          "axisLineColor": "#CCCCCC",
+          "calibration": false,
+          "fontColor": "#666666",
+          "fontSize": 13,
+          "rotateLabel": false,
+          "itemCount": 5,
+          "boundaryGap": "false",
+          "disableGrid": true,
+          "gridColor": "#CCCCCC",
+          "gridType": "solid",
+          "dashLength": 4,
+          "gridEval": 1,
+          "scrollShow": false,
+          "scrollAlign": "left",
+          "scrollColor": "#A6A6A6",
+          "scrollBackgroundColor": "#EFEBEF",
+          "format": ""
+      },
+      "yAxis": {
+          "disabled": false,
+          "disableGrid": false,
+          "splitNumber": 5,
+          "gridType": "dash",
+          "dashLength": 2,
+          "gridColor": "#CCCCCC",
+          "padding": 10,
+          "showTitle": false,
+          "data": []
+      },
+      "legend": {
+          "show": false,
+          "position": "bottom",
+          "float": "center",
+          "padding": 5,
+          "margin": 5,
+          "backgroundColor": "rgba(0,0,0,0)",
+          "borderColor": "rgba(0,0,0,0)",
+          "borderWidth": 0,
+          "fontSize": 13,
+          "fontColor": "#666666",
+          "lineHeight": 11,
+          "hiddenColor": "#CECECE",
+          "itemGap": 10
+      },
+      "extra": {
+          "area": {
+              "type": "straight",
+              "opacity": 0.2,
+              "addLine": true,
+              "width": 2,
+              "gradient": false
+          },
+          "tooltip": {
+              "showBox": true,
+              "showArrow": true,
+              "showCategory": false,
+              "borderWidth": 0,
+              "borderRadius": 0,
+              "borderColor": "#000000",
+              "borderOpacity": 0.7,
+              "bgColor": "#000000",
+              "bgOpacity": 0.7,
+              "gridType": "solid",
+              "dashLength": 4,
+              "gridColor": "#CCCCCC",
+              "fontColor": "#FFFFFF",
+              "splitLine": true,
+              "horizentalLine": false,
+              "xAxisLabel": false,
+              "yAxisLabel": false,
+              "labelBgColor": "#FFFFFF",
+              "labelBgOpacity": 0.7,
+              "labelFontColor": "#666666"
+          },
+          "markLine": {
+              "type": "solid",
+              "dashLength": 4,
+              "data": []
+          }
+      }
   },
 	"column":{
 		"type": "column",
@@ -363,6 +453,8 @@ module.exports = {
 	"area":{
 		"type": "area",
 		"color": color,
+		"dataPointShape": false,
+		"dataLabel": false,
 		"padding": [15,15,0,15],
 		"xAxis": {
       "disableGrid": true,
@@ -372,6 +464,7 @@ module.exports = {
       "dashLength": 2,
 		},
 		"legend": {
+			"show":false
 		},
 		"extra": {
 			"area": {

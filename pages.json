@@ -1,76 +1,559 @@
 {
-		
-	
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/tabbar/firstPage/firstPage",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		},
-		{
-		    "path" : "pages/tabbar/secondePage/secondePage",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		}
-		,{
-		    "path" : "pages/tabbar/thirdPage/thirdPage",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		}
-		,{
-		    "path" : "pages/tabbar/fouthPage/fouthPage",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		}
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      },
+	  "meta": {
+	    "auth": true
+	  }
+    },
+    {
+      "path": "pages/reg/reg",
+      "style": {
+        "navigationBarTitleText": "KPI注册",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "name": "login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/results/results",
+      "style": {
+        "navigationBarTitleText": "业绩",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/share/share",
+      "style": {
+        "navigationBarTitleText": "分享",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/results-search/results-search",
+      "style": {
+        "navigationBarTitleText": "业主查询",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/sign/sign",
+      "style": {
+        "navigationBarTitleText": "签单",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/customer-detail/customer-detail",
+      "style": {
+        "navigationBarTitleText": "客户详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/ranking/ranking",
+      "style": {
+        "navigationBarTitleText": "排行",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/crm-star/crm-star",
+      "style": {
+        "navigationBarTitleText": "CRM星级客户",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/qr/qr",
+      "style": {
+        "navigationBarTitleText": "个人二维码",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/mytwitter/mytwitter",
+      "style": {
+        "navigationBarTitleText": "我的推客",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/carrycode/carrycode",
+      "style": {
+        "navigationBarTitleText": "内购随身码",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/stamps/stamps",
+      "style": {
+        "navigationBarTitleText": "异业内购券",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/accounting/accounting",
+      "style": {
+        "navigationBarTitleText": "核销码",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/signup/signup",
+      "style": {
+        "navigationBarTitleText": "报名客户",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/bean/bean",
+      "style": {
+        "navigationBarTitleText": "奖励豆排行",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/financial/financial",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/withdrawal/withdrawal",
+      "style": {
+        "navigationBarTitleText": "提现",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/target/target",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/sell-ranking/sell-ranking",
+      "style": {
+        "navigationBarTitleText": "销售额排行",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/shopsearch/shopsearch",
+      "style": {
+        "navigationBarTitleText": "自然进店客户录入-搜索客户",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/shopadd/shopadd",
+      "style": {
+        "navigationBarTitleText": "自然进店客户录入-录入客户",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/store/store",
+      "style": {
+        "navigationBarTitleText": "异业内购券-门店信息管理",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/storema/storema",
+      "style": {
+        "navigationBarTitleText": "异业内购券-内购随身码",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/settlement/settlement",
+      "style": {
+        "navigationBarTitleText": "财务结算",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/pk/pk",
+      "style": {
+        "navigationBarTitleText": "战区PK大矩阵",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/battle/battle",
+      "style": {
+        "navigationBarTitleText": "PK大作战",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/data-bi/data-bi",
+      "style": {
+        "navigationBarTitleText": "数据BI分析",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/allot-team/allot-team",
+      "style": {
+        "navigationBarTitleText": "任务分配",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/allot-shop/allot-shop",
+      "style": {
+        "navigationBarTitleText": "任务分配",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/allot-task-setting/allot-task-setting",
+      "style": {
+        "navigationBarTitleText": "目标分配-任务设置",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/allot-person/allot-person",
+      "style": {
+        "navigationBarTitleText": "目标分配",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/change-person-task/change-person-task",
+      "style": {
+        "navigationBarTitleText": "目标分配-员工任务调整",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/activityup/activityup",
+      "style": {
+        "navigationBarTitleText": "活动费用充值",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/twittlelist/twittlelist",
+      "style": {
+        "navigationBarTitleText": "注册审核",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/pooltask/pooltask",
+      "style": {
+        "navigationBarTitleText": "奖金池任务",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tuilist/tuilist",
+      "style": {
+        "navigationBarTitleText": "推客列表-战区",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tuilisttwo/tuilisttwo",
+      "style": {
+        "navigationBarTitleText": "推客列表-战队",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tuilistthree/tuilistthree",
+      "style": {
+        "navigationBarTitleText": "推客列表-营销中心",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/results-browse/results-browse",
+      "style": {
+        "navigationBarTitleText": "浏览",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/results-order/results-order",
+      "style": {
+        "navigationBarTitleText": "签单",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/bill-detail/bill-detail",
+      "style": {
+        "navigationBarTitleText": "签单信息",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tuilistfour/tuilistfour",
+      "style": {
+        "navigationBarTitleText": "推客列表-销售人员",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/financial-detail/financial-detail",
+      "style": {
+        "navigationBarTitleText": "提现明细",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/accountnew/accountnew",
+      "style": {
+        "navigationBarTitleText": "核销记录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/postersee/postersee",
+      "style": {
+        "navigationBarTitleText": "分享",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/moresee/moresee",
+      "style": {
+        "navigationBarTitleText": "详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/newpooltask/newpooltask",
+      "style": {
+        "navigationBarTitleText": "添加阶段",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/sell/sell",
+      "style": {
+        "navigationBarTitleText": "订单记录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/customerEditor/customerEditor",
+      "style": {
+        "navigationBarTitleText": "报名客户-CRM",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/phone-reg/phone-reg",
+      "style": {
+        "navigationBarTitleText": "注册",
+        "enablePullDownRefresh": false
+      }
+    }
+      ,{
+            "path" : "pages/find/find",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "找回密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/yeji/yeji",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "业绩",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sign_up/sign_up",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/browse/browse",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fission/fission",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/selling_cards_coupon/selling_cards_coupon",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/jizan/jizan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/flash_sale_order/flash_sale_order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/collage_order/collage_order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/advance_booking_order/advance_booking_order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/signList/signList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/signListz/signListz",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/customer/customer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "客户详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/signDetail/signDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签单信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/draranking/draranking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "销售额排行",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/newranking/newranking",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "销售额排行",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/seeyeji/seeyeji",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "业绩",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/holdup/holdup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/allocation/allocation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "任务分配",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/task/task",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "任务执行情况",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"tabBar" : {
-	    "color": "#7A7E83",
-	    "backgroundColor": "#F8F8F8",
-	    "list" : [
-	        {
-	            "iconPath" : "static/logo.png",
-	            "selectedIconPath" : "static/logo.png",
-	            "pagePath" : "pages/tabbar/firstPage/firstPage",
-	            "text" : "第一页"
-	        },
-	        {
-	            "iconPath" : "static/logo.png",
-	            "selectedIconPath" : "static/logo.png",
-	            "pagePath" : "pages/tabbar/secondePage/secondePage",
-	            "text" : "第二页"
-	        },
-	        {
-	            "iconPath" : "static/logo.png",
-	            "selectedIconPath" : "static/logo.png",
-	            "pagePath" : "pages/tabbar/thirdPage/thirdPage",
-	            "text" : "第三页"
-	        },
-			{
-			    "iconPath" : "static/logo.png",
-			    "selectedIconPath" : "static/logo.png",
-			    "pagePath" : "pages/tabbar/fouthPage/fouthPage",
-			    "text" : "第四页"
-			}
-	    ]
-	},
-	"uniIdRouter": {}
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智能动销助手",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  }
 }

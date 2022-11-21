@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "image-tools": "^1.4.0",
+    "uni-read-pages": "^1.0.5",
+    "uni-simple-router": "^2.0.0"
+  }
+}
